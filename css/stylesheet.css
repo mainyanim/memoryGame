@@ -1,0 +1,9 @@
+.show {
+  padding: 5px;
+  display: inline-block;
+}
+
+.hidden {
+  padding: 5px;
+  display: inline-block;
+}
