@@ -6,4 +6,5 @@
 .hidden {
   padding: 5px;
   display: inline-block;
+  width: 175px;
 }
