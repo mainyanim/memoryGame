@@ -9,7 +9,6 @@ MemGame.one;
 MemGame.two;
 MemGame.win = 0;
 
-
 MemGame.startTimer= function() {
   MemGame.s = setTimeout(MemGame.control, 1500)
 };
@@ -43,7 +42,7 @@ MemGame.control = function() {
   } else if (MemGame.one.src!==MemGame.two.src) {
     MemGame.one.src = "pic/c.jpg";
     MemGame.two.src = "pic/c.jpg";
-  } if (MemGame.win == MemGame.imgArray.length/2) {
+  } else if (MemGame.win == MemGame.imgArray.length/2) {
     document.getElementById("winner").innerHTML = "Congratulations!";
   }
 }
